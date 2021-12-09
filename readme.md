@@ -49,7 +49,11 @@
             -  Yearly: /data/clean/production/product_usage/pu_yearly.csv
             -  All Time: /data/clean/production/product_usage/pu_allTime.csv
 
-# DEPLOYMENT
+# WINDOWS DEPLOYMENT
+1. Run git-update-data.ps1
+2. Run git-pure-deploy.ps1
+
+# MAC DEPLOYMENT
 ## EASY DEPLOYMENT
 NOTE: Must run from command prompt where directory is the PureDash folder. If it is not, the command scripts below will not be able to locate the necessary files.
 1. Update Data

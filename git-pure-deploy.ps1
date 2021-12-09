@@ -10,7 +10,8 @@ git push -f heroku main
 
 #### Re-push repo w/ data folder in .gitignore ####
 "C:\Users\spenc\Desktop\PureSolutionsDash\juicy_secrets.py`nC:\Users\spenc\Desktop\PureSolutionsDash\data" | Out-File -FilePath "C:\Users\spenc\Desktop\PureSolutionsDash\.gitignore"
-git rm -r --cached . # remove files in index
+git rm -r --cached C:\Users\spenc\Desktop\PureSolutionsDash\juicy_secrets.py # remove files in index
+git rm -r --cached C:\Users\spenc\Desktop\PureSolutionsDash\data # remove files in index
 git add . # add all files
 git commit -m "remove data from index" # commit changes
 git push origin main # push to origin
