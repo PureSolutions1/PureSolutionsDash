@@ -20,3 +20,4 @@ streamlit_folium
 requests
 rq
 redis
+urlparse
