@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages')
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages')
 import streamlit as st
 from rq import Queue
 from dotenv import load_dotenv
