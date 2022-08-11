@@ -1,7 +1,7 @@
 import os
 import sys
 import urlparse
-#sys.path.append('/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages')
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages')
 import redis
 from rq import Worker, Queue, Connection
 
