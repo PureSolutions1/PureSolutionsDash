@@ -10,7 +10,7 @@ listen = ['high', 'default', 'low']
 #redis_url = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
 #conn = redis.from_url(redis_url)
 
-redis_url = os.getenv('REDISTOGO_URL')
+redis_url = os.getenv('REDISTOGO_URL','redis://localhost:6379')
 
 urlparse.uses_netloc.append('redis')
 url = urlparse.urlparse(redis_url)
